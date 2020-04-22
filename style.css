@@ -1,4 +1,5 @@
 body {
+    background-color: hsl(0, 0%, 98%);
     color: hsl(234, 12%, 34%);
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -19,21 +20,79 @@ h2 {
 }
 
 p {
+    color: hsl(229, 6%, 66%);
     font-weight: 200;
 }
-
 header {
-    margin: 70px auto 100px auto;
+    margin: 70px auto 60px auto;
     width: 500px;
 }
 
+img {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
 .group-of-cards {
+    position: relative;
+    display: block;
+    height: 530px;
+    margin: auto;
     text-align: left;
+    width: 1110px;
 }
 
 .card {
-    background-color: aqua;
-    width: 400px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px hsl(229, 6%, 66%, 0.3);
+    height: 250px;
+    width: 350px;
+}
+
+.card p {
+    margin: auto 30px;
+} 
+
+.card h2 {
+    margin: 30px 30px 10px 30px;
+}
+
+.supervisor {
+    background-image: url(images/top-line/cyan-top-line.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+}
+
+.team-builder {
+    background-image: url(images/top-line/red-top-line.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;
+    top: 0px;
+    left: 380px;
+}
+
+.karma {
+    background-image: url(images/top-line/orange-top-line.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;
+    bottom: 0px;
+    left: 380px;
+}
+
+.calculator {
+    background-image: url(images/top-line/blue-top-line.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;
+    right: 0px;
+    top: 140px;
 }
 
 .attribution { 
